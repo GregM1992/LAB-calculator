@@ -7,7 +7,6 @@ body{
   border: 2px solid black;
 }
 button{
-  display: flex;
   border: 1px solid black;
   text-align: center;
   font-size: xx-large;
@@ -25,27 +24,11 @@ button:active{
   color: blanchedalmond;
  background-color:#df974c;
 }
-.r1, .r2, .r3, .r4, .r5{
-  display: flex;
-  }
-.c1,.c2,.c3,.c4{
-display: flex;
-flex-direction: column;
-width: 400px;
-}
 .c4:hover{
   background:#dfb07e
   }
 .c4:active{
 background:#dd8d37;
-}
-#c{
-  display: flex;
-
-}
-.zero{
-  display: flex;
-  flex-grow: 3;
 }
 .c4{
   color: blanchedalmond;
