@@ -2,22 +2,33 @@ body{
   background-color: bisque;  
 }
 #calculator{
-  width: 402px;
-  height: 484px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 600px;
   border: 2px solid black;
 }
-button{
+.btn{
+  width: 25%;
   border: 1px solid black;
   text-align: center;
   font-size: xx-large;
   background-color:lightgray ;
-  width: 80px;
-  height: 80px;
+ 
 }
-button:hover{
+.row{
+  display: flex;
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: xx-large;
+  background-color:lightgray ;
+  
+}
+.btn:hover{
   background:#ebebeb
 }
-button:active{
+.btn:active{
   background:#bbbcbe
 }
 .symbol{
